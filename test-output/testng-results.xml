@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="87326" started-at="2019-03-22T18:34:31Z" finished-at="2019-03-22T18:35:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="87326" started-at="2019-03-22T18:34:31Z" finished-at="2019-03-22T18:35:58Z">
+      <class name="common.BaseClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:common.BaseClass@c81cdd1]" name="setUp" is-config="true" duration-ms="55304" started-at="2019-03-22T18:34:31Z" finished-at="2019-03-22T18:35:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="dkjfn(java.lang.String, java.lang.String)[pri:0, instance:common.BaseClass@c81cdd1]" name="dkjfn" duration-ms="31050" started-at="2019-03-22T18:35:27Z" data-provider="GetCredentials" finished-at="2019-03-22T18:35:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[estest@emotion.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd1234 ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dkjfn -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:common.BaseClass@c81cdd1]" name="teardown" is-config="true" duration-ms="312" started-at="2019-03-22T18:35:58Z" finished-at="2019-03-22T18:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- common.BaseClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
