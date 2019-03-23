@@ -34,8 +34,7 @@ public class AppiumHelper {
 	}
    public void SendkeysById(AndroidDriver<MobileElement> driver,String ID,String Input) {
 	   AppiumHelper.FindElementById(driver, ID).sendKeys(Input);
-	
-}
+	}
    public void SendkeysByXpath(AndroidDriver<MobileElement> driver,String Xpath,String Input) {
 	   AppiumHelper.FindElementById(driver, Xpath).sendKeys(Input);
 }
