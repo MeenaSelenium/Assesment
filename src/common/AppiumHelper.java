@@ -47,23 +47,7 @@ public class AppiumHelper {
        .press(PointOption.point(535, 1702)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(2000)))
        .moveTo(PointOption.point(474, 642)).release().perform();
    }
-public void GetToastMessage(AndroidDriver<MobileElement> driver) {
-	WebElement ToastView = driver.findElementByXPath("//android.widget.Toast[1]");
-    String ToastMessage = ToastView.getAttribute("name");
-    System.out.println("Toast Message Displayed as : "+ToastMessage);
-     if(ToastMessage.equalsIgnoreCase("Please Fix the Appointment First")) {
-    	  System.out.println("Toast Message validation done");
-      }
-      else {
-    	  System.out.println("Toast Message validation Not Done");
-      }
-}
-public void IsToastMessageDisplayed(AndroidDriver<MobileElement> driver) {
-	WebElement ToastView = driver.findElementByXPath("//android.widget.Toast[1]");
-	if(ToastView.isDisplayed()) {
-		
-	}
-}
+
 
 
 
